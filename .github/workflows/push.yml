@@ -1,0 +1,31 @@
+name: push - Deploy to gh-page
+
+on:
+  push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      
+      - name: install hexo
+        run: |
+          npm install hexo-cli -g
+          npm install
+      
+      - name: build page
+        run: hexo g -d
+
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-page
+          folder: public
