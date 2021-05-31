@@ -18,7 +18,7 @@
   <meta name="author" content="Kininaru">
   <meta name="keywords" content="">
   
-  <title>Hello World - Kininaru Blog</title>
+  <title>goroutine - Kininaru Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -163,7 +163,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Hello World">
+            <span class="h2" id="subtitle" title="goroutine">
               
             </span>
 
@@ -185,7 +185,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      17 字
+      327 字
     </span>
   
 
@@ -195,7 +195,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      3
        分钟
     </span>
   
@@ -225,10 +225,24 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">goroutine</h1>
             
             <div class="markdown-body">
-              <p>一直不知道写啥，所以就只有这一篇 Hello World…</p>
+              <p>这篇文章记录了我对 <code>goroutine</code> 的一些理解。</p>
+<h2 id="goroutine"><a href="#goroutine" class="headerlink" title="goroutine"></a>goroutine</h2><p>Go 语言使用 goroutine  处理并发。每个 Go 程序都有一个最基础的 goroutine，main 函数执行在这个 goroutine 上。同时，可以在代码中用 <code>go</code> 关键字开启一个新的 goroutine。</p>
+<p>Go 程序生命周期中，最长的 goroutine 是 main 函数所在的 goroutine。这个 goroutine 一旦结束，整个程序的所有 goroutine 都会结束，不论它们有没有完成任务。</p>
+<h2 id="Channel"><a href="#Channel" class="headerlink" title="Channel"></a>Channel</h2><p>Go 语言中，不同的 goroutine 之间可以通过 Channel 通信。</p>
+<p>每个 Channel 都有两个状态：<code>buffered</code> 和 <code>unbuffered</code> ，定义 Channel 时可以指定初始状态。</p>
+<p>改变 Channel 状态的运算符是 <code>&lt;-</code>。这个运算符左边的 Channel 会被设为 <code>unbuffered</code> 状态，右边的 Channel 会被设为 <code>buffered</code> 状态。</p>
+<h3 id="当一个-goroutine-想要设置一个-Channel-的状态时，如果："><a href="#当一个-goroutine-想要设置一个-Channel-的状态时，如果：" class="headerlink" title="当一个 goroutine 想要设置一个 Channel 的状态时，如果："></a>当一个 goroutine 想要设置一个 Channel 的状态时，如果：</h3><ul>
+<li><p>这个 Channel 的目标状态与当前状态不同：</p>
+<p>设置会立马生效，Channel 的状态立刻改变。</p>
+</li>
+<li><p>这个 Channel 的目标状态与当前状态相同：</p>
+<p>这个设置不会立刻生效。当前 goroutine 会等待这个 Channel 变为与当前不同的状态，然后再改变这个 Channel 的状态。</p>
+</li>
+</ul>
+<p>使用 Channel 的这个特性，可以确保不同 goroutine 之内代码的执行顺序受控制。</p>
 
             </div>
             <hr>
@@ -249,15 +263,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/goroutine/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">goroutine</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/hello-world/">
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
