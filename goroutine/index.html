@@ -173,7 +173,7 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-05-31 15:19" pubdate>
+      <time datetime="2021-05-31 15:23" pubdate>
         May 31, 2021 pm
       </time>
     </span>
@@ -185,7 +185,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      327 字
+      389 字
     </span>
   
 
@@ -195,7 +195,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      4
        分钟
     </span>
   
@@ -240,6 +240,9 @@
 </li>
 <li><p>这个 Channel 的目标状态与当前状态相同：</p>
 <p>这个设置不会立刻生效。当前 goroutine 会等待这个 Channel 变为与当前不同的状态，然后再改变这个 Channel 的状态。</p>
+</li>
+<li><p>这个 Channel 目标状态与当前状态相同，且没有其他 goroutine 正在运行：</p>
+<p>Go Runtime 会报错，因为当前 goroutine 永远不可能等到 Channel 到达自己想要的状态。整个程序已经锁死在这里。</p>
 </li>
 </ul>
 <p>使用 Channel 的这个特性，可以确保不同 goroutine 之内代码的执行顺序受控制。</p>
