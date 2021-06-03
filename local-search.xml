@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>about</title>
+    <link href="/about/"/>
+    <url>/about/</url>
+    
+    <content type="html"><![CDATA[<h1 id="About-me"><a href="#About-me" class="headerlink" title="About me"></a>About me</h1>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>goroutine</title>
     <link href="/goroutine/"/>
     <url>/goroutine/</url>
@@ -22,19 +35,6 @@
     <url>/hello-world/</url>
     
     <content type="html"><![CDATA[<p>一直不知道写啥，所以就只有这一篇 Hello World…</p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>about</title>
-    <link href="/about/"/>
-    <url>/about/</url>
-    
-    <content type="html"><![CDATA[<h1 id="About-me"><a href="#About-me" class="headerlink" title="About me"></a>About me</h1>]]></content>
     
     
     
