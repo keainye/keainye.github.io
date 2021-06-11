@@ -709,21 +709,15 @@ links:
   # Member item of page
   items:
     - {
-      title: "Fluid Blog",
-      intro: "主题博客",
-      link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
+      title: "GitHub",
+      intro: "Kininaru",
+      link: "https://github.com/Kininaru",
+      avatar: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
     }
     - {
       title: "Fluid Docs",
       intro: "主题使用指南",
       link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
-    }
-    - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
       avatar: "/img/favicon.png"
     }
 
