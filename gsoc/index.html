@@ -18,7 +18,7 @@
   <meta name="author" content="Kininaru">
   <meta name="keywords" content="">
   
-  <title>goroutine - Kininaru Blog</title>
+  <title>Google Summer of Code - Kininaru Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -175,7 +175,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="goroutine">
+            <span class="h2" id="subtitle" title="Google Summer of Code">
               
             </span>
 
@@ -185,8 +185,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-06-23 08:12" pubdate>
-        June 23, 2021 am
+      <time datetime="2021-05-18 02:00" pubdate>
+        May 18, 2021 am
       </time>
     </span>
   
@@ -197,7 +197,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      389 words
+      28 words
     </span>
   
 
@@ -207,7 +207,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4
+      1
        minutes
     </span>
   
@@ -237,27 +237,12 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">goroutine</h1>
+            <h1 style="display: none">Google Summer of Code</h1>
             
             <div class="markdown-body">
-              <p>这篇文章记录了我对 <code>goroutine</code> 的一些理解。</p>
-<h2 id="goroutine"><a href="#goroutine" class="headerlink" title="goroutine"></a>goroutine</h2><p>Go 语言使用 goroutine  处理并发。每个 Go 程序都有一个最基础的 goroutine，main 函数执行在这个 goroutine 上。同时，可以在代码中用 <code>go</code> 关键字开启一个新的 goroutine。</p>
-<p>Go 程序生命周期中，最长的 goroutine 是 main 函数所在的 goroutine。这个 goroutine 一旦结束，整个程序的所有 goroutine 都会结束，不论它们有没有完成任务。</p>
-<h2 id="Channel"><a href="#Channel" class="headerlink" title="Channel"></a>Channel</h2><p>Go 语言中，不同的 goroutine 之间可以通过 Channel 通信。</p>
-<p>每个 Channel 都有两个状态：<code>buffered</code> 和 <code>unbuffered</code> ，定义 Channel 时可以指定初始状态。</p>
-<p>改变 Channel 状态的运算符是 <code>&lt;-</code>。这个运算符左边的 Channel 会被设为 <code>unbuffered</code> 状态，右边的 Channel 会被设为 <code>buffered</code> 状态。</p>
-<h3 id="当一个-goroutine-想要设置一个-Channel-的状态时，如果："><a href="#当一个-goroutine-想要设置一个-Channel-的状态时，如果：" class="headerlink" title="当一个 goroutine 想要设置一个 Channel 的状态时，如果："></a>当一个 goroutine 想要设置一个 Channel 的状态时，如果：</h3><ul>
-<li><p>这个 Channel 的目标状态与当前状态不同：</p>
-<p>设置会立马生效，Channel 的状态立刻改变。</p>
-</li>
-<li><p>这个 Channel 的目标状态与当前状态相同：</p>
-<p>这个设置不会立刻生效。当前 goroutine 会等待这个 Channel 变为与当前不同的状态，然后再改变这个 Channel 的状态。</p>
-</li>
-<li><p>这个 Channel 目标状态与当前状态相同，且没有其他 goroutine 正在运行：</p>
-<p>Go Runtime 会报错，因为当前 goroutine 永远不可能等到 Channel 到达自己想要的状态。整个程序已经锁死在这里。</p>
-</li>
-</ul>
-<p>使用 Channel 的这个特性，可以确保不同 goroutine 之内代码的执行顺序受控制。</p>
+              <p>今年申请了 Google Summer of Code，向 Casbin 社区投递了 <a target="_blank" rel="noopener" href="https://archives.kininaru.dev/gsoc/2021/proposal.pdf">Proposal</a>。</p>
+<p>5 月 18 日收到了 Google 的邮件：</p>
+<p><img src="https://archives.kininaru.dev/gsoc/2021/gsoc-accepted.png" srcset="/img/loading.gif" lazyload alt="Accepted Email"></p>
 
             </div>
             <hr>
@@ -282,8 +267,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/hello-world/">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/about/">
+                        <span class="hidden-mobile">About</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
