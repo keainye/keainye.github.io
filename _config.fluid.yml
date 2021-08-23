@@ -715,10 +715,22 @@ links:
       avatar: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
     }
     - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
+      title: "Zxilly",
+      intro: "我的高中同学",
+      link: "https://learningman.top",
+      avatar: "https://secure.gravatar.com/avatar/7d3206c7b42edbb643e6b2fe29f2f0b9?s=512&d=mm&r=x"
+    }
+    - {
+      title: "WindSpirit IT",
+      intro: "跟随互联网发展的每一步",
+      link: "https://www.leviatan.cn",
+      avatar: "https://www.leviatan.cn/wp-content/uploads/2021/06/WindSpiritIT-LOGO-Blog-512.png"
+    }
+    - {
+      title: "sh1luo",
+      intro: "摒弃世俗之浮躁，留我钻研之刻苦。",
+      link: "https://kcode.icu",
+      avatar: "https://avatars.githubusercontent.com/u/51157931?v=4"
     }
 
   # 当成员头像加载失败时，替换为指定图片
