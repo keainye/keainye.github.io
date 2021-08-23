@@ -11,7 +11,7 @@ The first part of this report is a brief summary of my work. For detailed contri
 
 # Summary
 
-Here are some big features I implemented for Casdoor. In addition, I also fixed some bugs for Casdoor.
+Here are some big features I implemented for Casdoor and Casnode. In addition, I also fixed bugs for both of them.
 
 ## Casdoor
 
@@ -28,3 +28,13 @@ Casdoor is a Single-Sign-On platform based on OAuth 2.0 / OIDC. It can also serv
 ## Casnode
 
 Casnode is the official forum of Casbin. Casnode is suitable for open source organizations to use because it supports the two-way synchronization to Google Groups, and can sync its topics and replies to all mailing lists.
+
+**Night mode: ** I supported the night mode for Casnode. Now, users can click the switch button to switch between night mode and light mode.
+
+**Refactored the OSS support: **Casnode uses Aliyun STS as a storage provider before. This not that safe because users can upload any file to anywhere in the storage server. I refactored the storage system with another Go module called qor, which supports variables of storage providers, and upload these files in the backend, which is safer than before.
+
+**Server side rendering: **Casnode is written in React, which means that bots from search engines can not get the forum details because they can not execute JS code. I used Chromedp in Golang backend, and added a filter for bots. If a HTTP request has a `bot` keyword in its `User-Agent`, it will be recognized by the bot filter, and will receive a rendered page with forum details. This way, you can get the information of the forum from search engines.
+
+**Mailing list support: **Casnode sends Emails to a mailing list when new topics or new replies are made. It can sync all new topics and replies to all mailing lists, and supports the two-way synchronization to Google Groups. This made Casnode suitable for open source organizations to use.
+
+**Embeded plugin: **I implemented the embeded plugin for Casnode. With the plugin, only few lines of HTML code is needed to embed Casnode as a reply plugin to any webpage. For example, [Casbin OA](https://oa.casbin.com/) uses Casnode  Embedded Plugin as a reply plugin.
