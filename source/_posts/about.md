@@ -5,19 +5,15 @@ date: 2001/5/5 12:00:00
 
 ## 关于我
 
-大二学生，CS 专业。
-
-## 关于这个网站
-
-这个博客用于记录我的一些完整的项目，主要是这个项目的技术架构和代码实现。
-
-但是如你所见，目前我还没有任何完整的项目，所以这个博客基本上就是空的...希望以后这里的内容能越来越丰富吧。
-
-我还有[另外一个博客](https://blog.kininaru.dev)，用于记录一些比较日常的东西。
+- 大三
+- Golang, Javascript
+- （前）Apple 爱好者，现在只喜欢 Mac，并且很讨厌 iOS
 
 ## 联系我
 
 Email: me@mail.kininaru.dev
+
+GitHub: [Kininaru](https://github.com/Kininaru)
 
 
 
