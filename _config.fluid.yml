@@ -732,6 +732,12 @@ links:
       link: "https://kcode.icu",
       avatar: "https://avatars.githubusercontent.com/u/51157931?v=4"
     }
+    - {
+      title: "Ximena",
+      intro: "ACM 大师",
+      link: "http://ximena.top",
+      avatar: "http://ximena.top/medias/avatar.jpg"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
