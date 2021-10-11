@@ -1,6 +1,11 @@
 ---
 title: Long time supported records of kininaru.dev
-date: 2021/10/11 12:57
+date: 2021/10/11 13:02
 ---
 
-test
+| type  | name         | record             | description    |
+| ----- | ------------ | ------------------ | -------------- |
+| cname | kininaru.dev | kininaru.github.io | Personal blog. |
+
+
+
