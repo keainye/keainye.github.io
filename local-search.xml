@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Long time supported records of kininaru.dev</title>
+    <link href="/records/kininaru.dev/"/>
+    <url>/records/kininaru.dev/</url>
+    
+    <content type="html"><![CDATA[<p>test</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>WSL2 and Windows Terminal</title>
     <link href="/wsl2/"/>
     <url>/wsl2/</url>
@@ -60,7 +73,7 @@
     <link href="/about/"/>
     <url>/about/</url>
     
-    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>大三</li><li>C++ 爱好者，认为手动 GC 才是工程师的浪漫</li><li>Golang, Javascript, TypeScript（生活所迫）</li><li>正在学习算法（实际上是魔法）</li><li>（前）Apple 爱好者，现在抵制 Apple 的一切事物（除了 Apple 的设计风格）</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#x6d;&#101;&#64;&#109;&#97;&#105;&#108;&#46;&#x6b;&#105;&#110;&#105;&#110;&#97;&#114;&#117;&#46;&#100;&#101;&#118;">&#x6d;&#101;&#64;&#109;&#97;&#105;&#108;&#46;&#x6b;&#105;&#110;&#105;&#110;&#97;&#114;&#117;&#46;&#100;&#101;&#118;</a></p><p>GitHub: <a href="https://github.com/Kininaru">Kininaru</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>大三</li><li>C++ 爱好者，认为手动 GC 才是工程师的浪漫</li><li>Golang, Javascript, TypeScript（生活所迫）</li><li>正在学习算法（实际上是魔法）</li><li>（前）Apple 爱好者，现在抵制 Apple 的一切事物（除了 Apple 的设计风格）</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#109;&#101;&#64;&#x6d;&#97;&#105;&#108;&#x2e;&#107;&#105;&#110;&#x69;&#x6e;&#97;&#114;&#x75;&#46;&#100;&#101;&#118;">&#109;&#101;&#64;&#x6d;&#97;&#105;&#108;&#x2e;&#107;&#105;&#110;&#x69;&#x6e;&#97;&#114;&#x75;&#46;&#100;&#101;&#118;</a></p><p>GitHub: <a href="https://github.com/Kininaru">Kininaru</a></p>]]></content>
     
     
     
