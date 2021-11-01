@@ -25,88 +25,83 @@ Fluid.utils = {
     }
   },
 
-  elementVisible: function(element, offsetFactor) {
-    offsetFactor = (offsetFactor && offsetFactor >= 0) ? offsetFactor : 0;
+  elementInViewport: function(element, heightFactor) {
+    heightFactor = heightFactor || 1;
     var rect = element.getBoundingClientRect();
     var height = window.innerHeight || document.documentElement.clientHeight;
     var top = rect.top;
-    return (top >= 0 && top <= height * (offsetFactor + 1))
-      || (top <= 0 && top >= -(height * offsetFactor) - rect.height);
+    return (top >= 0 && top <= height * (heightFactor + 1))
+      || (top <= 0 && top >= -(height * heightFactor) - rect.height);
   },
 
-  waitElementVisible: function(selectorOrElement, callback, offsetFactor) {
+  waitElementVisible: function(selectorsOrElement, callback, heightFactor) {
     var runningOnBrowser = typeof window !== 'undefined';
-    var isBot = (runningOnBrowser && !('onscroll' in window)) ||
-      (typeof navigator !== 'undefined' && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent));
+    var isBot = (runningOnBrowser && !('onscroll' in window)) || (typeof navigator !== 'undefined'
+        && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent));
+    var supportsIntersectionObserver = 'IntersectionObserver' in window;
+
     if (!runningOnBrowser || isBot) {
+      callback();
       return;
     }
 
-    offsetFactor = (offsetFactor && offsetFactor >= 0) ? offsetFactor : 0;
-
-    function waitInViewport(element) {
-      if (Fluid.utils.elementVisible(element, offsetFactor)) {
-        callback();
-        return;
-      }
-      if ('IntersectionObserver' in window) {
-        var io = new IntersectionObserver(function(entries, ob) {
-          if (entries[0].isIntersecting) {
-            callback();
-            ob.disconnect();
-          }
-        }, {
-          threshold : [0],
-          rootMargin: (window.innerHeight || document.documentElement.clientHeight) * offsetFactor + 'px'
-        });
-        io.observe(element);
-      } else {
-        var wrapper = Fluid.utils.listenScroll(function() {
-          if (Fluid.utils.elementVisible(element, offsetFactor)) {
-            Fluid.utils.unlistenScroll(wrapper);
-            callback();
-          }
-        });
-      }
+    var target;
+    if (typeof selectorsOrElement === 'string') {
+      target = document.querySelector(selectorsOrElement);
+    } else {
+      target = selectorsOrElement;
     }
 
-    if (typeof selectorOrElement === 'string') {
-      this.waitElementLoaded(selectorOrElement, function(element) {
-        waitInViewport(element);
+    var _heightFactor = heightFactor || 2;
+
+    if (Fluid.utils.elementInViewport(target, _heightFactor)) {
+      callback();
+      return;
+    }
+
+    if (supportsIntersectionObserver) {
+      var io = new IntersectionObserver(function(entries, ob) {
+        if (entries[0].isIntersecting) {
+          callback();
+          ob.disconnect();
+        }
+      }, {
+        threshold : [0],
+        rootMargin: (window.innerHeight || document.documentElement.clientHeight) + 'px'
       });
+      io.observe(target);
     } else {
-      waitInViewport(selectorOrElement);
+      var warpCallback = Fluid.utils.listenScroll(function() {
+        if (Fluid.utils.elementInViewport(target, _heightFactor)) {
+          Fluid.utils.unlistenScroll(warpCallback);
+          callback();
+        }
+      });
     }
   },
 
-  waitElementLoaded: function(selector, callback) {
+  waitElementLoaded: function(targetId, callback) {
     var runningOnBrowser = typeof window !== 'undefined';
-    var isBot = (runningOnBrowser && !('onscroll' in window)) ||
-      (typeof navigator !== 'undefined' && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent));
+    var isBot = (runningOnBrowser && !('onscroll' in window)) || (typeof navigator !== 'undefined'
+    && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent));
+
     if (!runningOnBrowser || isBot) {
+      callback();
       return;
     }
 
     if ('MutationObserver' in window) {
       var mo = new MutationObserver(function(records, ob) {
-        var ele = document.querySelector(selector);
+        var ele = document.getElementById(targetId);
         if (ele) {
-          callback(ele);
+          callback();
           ob.disconnect();
         }
       });
       mo.observe(document, { childList: true, subtree: true });
     } else {
       document.addEventListener('DOMContentLoaded', function() {
-        var waitLoop = function() {
-          var ele = document.querySelector(selector);
-          if (ele) {
-            callback(ele);
-          } else {
-            setTimeout(waitLoop, 100);
-          }
-        };
-        waitLoop();
+        callback();
       });
     }
   },

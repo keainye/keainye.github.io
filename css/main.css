@@ -119,7 +119,14 @@ footer .beian {
   justify-content: center;
 }
 footer .beian > * {
+  flex: 1;
   margin: 0 0.25rem;
+}
+footer .beian > *:nth-last-child(2):first-child {
+  text-align: right;
+}
+footer .beian > *:nth-last-child(2):first-child ~ * {
+  text-align: left;
 }
 footer .beian-police {
   position: relative;
@@ -219,9 +226,8 @@ sup > a::before,
   right: -5.25rem;
   z-index: 99;
   display: none;
-  border-radius: 0.2rem;
-  background-color: transparent;
   box-shadow: 0 0 20px -5px rgba(158,158,158,0.2);
+  border-radius: 0.2rem;
 }
 .scroll-down-bar {
   position: absolute;
@@ -295,7 +301,6 @@ sup > a::before,
 }
 html {
   font-size: 16px;
-  letter-spacing: 0.02em;
 }
 html,
 body {
@@ -311,8 +316,6 @@ body {
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   background-color: var(--body-bg-color);
   color: var(--text-color);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 body a {
   color: var(--text-color);
@@ -890,9 +893,8 @@ img[lazyload] {
 }
 .markdown-body {
   font-size: 1rem;
-  line-height: 1.6;
-  font-family: var(--font-family-sans-serif);
   margin-bottom: 2rem;
+  font-family: var(--font-family-sans-serif);
   color: var(--post-text-color);
 }
 .markdown-body h1,
@@ -946,7 +948,6 @@ img[lazyload] {
   display: block;
   box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
   border-radius: 3px;
-  background-color: transparent;
 }
 .markdown-body blockquote {
   color: var(--sec-text-color);
@@ -985,9 +986,6 @@ img[lazyload] {
   border-top-width: 2px;
   border-top-style: solid;
   border-top-color: rgba(0,0,0,0.1);
-}
-figure {
-  margin: 1rem 0;
 }
 figure.highlight {
   position: relative;
@@ -1303,7 +1301,6 @@ mjx-container svg:focus,
   object-fit: cover;
   box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
   border-radius: 0.25rem;
-  background-color: transparent;
 }
 .index-info {
   display: flex;
@@ -1783,7 +1780,6 @@ note-default {
 .group-image-container img {
   margin: 0 auto;
   border-radius: 3px;
-  background-color: transparent;
   box-shadow: 0 3px 9px 0 rgba(0,0,0,0.15), 0 3px 9px 0 rgba(0,0,0,0.15);
 }
 .group-image-row {
@@ -1813,8 +1809,10 @@ note-default {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: transparent;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   object-fit: cover;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .about-info > div {
@@ -1929,7 +1927,8 @@ note-default {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: transparent;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   object-fit: cover;
 }
 .link-text {

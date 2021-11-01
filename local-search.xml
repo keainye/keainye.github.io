@@ -30,19 +30,6 @@
   
   
   <entry>
-    <title>WSL2 and Windows Terminal</title>
-    <link href="/wsl2/"/>
-    <url>/wsl2/</url>
-    
-    <content type="html"><![CDATA[<blockquote><p>Windows 是最好的 Linux 发行版。</p></blockquote><p>WSL2 发布以后就一直有人这么评论。最近发现 WSL2 和 Windows Terminal 配合起来无比好用。</p><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><ul><li>按 Win 键，然后输入 Windows，回车，就能在自己用户文件夹下打开 PowerShell</li><li>按 Win 键，然后输入 Ubuntu，回车，就能在 Linux 用户文件夹下打开 Ubuntu 命令行</li><li>按 Win 键，然后输入 wt，回车，就能在自己用户文件夹下打开 Ubuntu 命令行</li><li>任意文件夹内，右键，选择 在 Windows 终端 中打开，就能在此处打开 PowerShell</li><li>任意文件夹内，右键，选择 在 Windows 终端 预览版 中打开，就能在此处打开 Ubuntu 命令行</li></ul><h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><ol><li>准备两个 Windows Terminal（Windows Terminal 和 Windows Terminal Preview）</li><li>设置默认终端应用程序为 Windows Terminal Preview（在 Windows Terminal 的设置里面可以找到这个选项）</li><li>在 Windows Terminal Preview 的设置里面，将默认配置文件改成 WSL2（比如 Ubuntu）</li></ol>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Google Summer of Code 2021 Final Evaluation</title>
     <link href="/gsoc-report/"/>
     <url>/gsoc-report/</url>
@@ -86,7 +73,7 @@
     <link href="/about/"/>
     <url>/about/</url>
     
-    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>大三</li><li>C++ 爱好者，认为手动 GC 才是工程师的浪漫</li><li>Golang, Javascript, TypeScript（生活所迫）</li><li>正在学习算法（实际上是魔法）</li><li>（前）Apple 爱好者，现在抵制 Apple 的一切事物（除了 Apple 的设计风格）</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#109;&#x65;&#64;&#109;&#x61;&#105;&#x6c;&#46;&#107;&#105;&#110;&#x69;&#110;&#x61;&#114;&#117;&#x2e;&#100;&#101;&#x76;">&#109;&#x65;&#64;&#109;&#x61;&#105;&#x6c;&#46;&#107;&#105;&#110;&#x69;&#110;&#x61;&#114;&#117;&#x2e;&#100;&#101;&#x76;</a></p><p>GitHub: <a href="https://github.com/Kininaru">Kininaru</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>大三</li><li>C++ 爱好者，认为手动 GC 才是工程师的浪漫</li><li>Golang, Javascript, TypeScript（生活所迫）</li><li>正在学习算法（实际上是魔法）</li><li>（前）Apple 爱好者，现在抵制 Apple 的一切事物（除了 Apple 的设计风格）</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#x6d;&#101;&#x40;&#x6d;&#97;&#105;&#108;&#x2e;&#107;&#105;&#110;&#x69;&#x6e;&#97;&#x72;&#x75;&#x2e;&#100;&#x65;&#x76;">&#x6d;&#101;&#x40;&#x6d;&#97;&#105;&#108;&#x2e;&#107;&#105;&#110;&#x69;&#x6e;&#97;&#x72;&#x75;&#x2e;&#100;&#x65;&#x76;</a></p><p>GitHub: <a href="https://github.com/Kininaru">Kininaru</a></p>]]></content>
     
     
     
