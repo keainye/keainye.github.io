@@ -15,9 +15,17 @@ date: 2021/11/08 13:34
 
 整个短链接服务分为两个程序（[ShortLink](https://github.com/Kininaru/short-link), [ShortLinkApi](https://github.com/Kininaru/short-link-api)），使用了两个 KV 命名空间。其中，`ShortLink` 是提供跳转的主程序；`ShortLinkApi` 是控制程序，负责生成、修改、删除、覆盖短链接。
 
+## 项目地址
+
+提供跳转的本体：[GitHub - ShortLink](https://github.com/Kininaru/short-link)
+
+控制端：[GitHub - ShortLinkApi](https://github.com/Kininaru/short-link-api)
+
 ## 安装
 
-出于法律问题，这个短链接服务我仅打算自用。但是代码是完全公开的，并且与 `7nm.co` 没有强耦合。如果你在使用过程中有任何问题，或者发现了任何 bug，请发邮件至 [me@mail.kininaru.dev](mailto:me@mail.kininaru.dev)。如需部署，请按照以下步骤配置。
+出于法律问题，这个短链接服务我仅打算自用。但是代码是完全公开的，并且与 `7nm.co` 没有强耦合。
+
+如果你在使用过程中有任何问题，或者发现了任何 bug，请发邮件至 [me@mail.kininaru.dev](mailto:me@mail.kininaru.dev)。如需部署，请按照以下步骤配置。
 
 假设你需要为 `example.com` 配置短链接服务，并在 `api.example.com` 控制这个服务，那么你需要：
 
