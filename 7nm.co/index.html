@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://images.chromium.link/c8d01e4cee21632345fbce222c63b21b489eab7a.png@518w.webp">
 <meta property="article:published_time" content="2021-11-08T13:34:00.000Z">
-<meta property="article:modified_time" content="2021-11-08T05:52:16.927Z">
+<meta property="article:modified_time" content="2021-11-08T06:05:27.976Z">
 <meta property="article:author" content="Kininaru">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://images.chromium.link/c8d01e4cee21632345fbce222c63b21b489eab7a.png@518w.webp">
@@ -371,7 +371,7 @@
 <p>第 4 步的重复校验只能容忍一次重复。如果两次都碰撞了，则会要求管理员更改代码增加一位短链接。</p>
 <p>我对这个短链接算法并不是很满意，因为对于碰撞的处理太草率了，应该设计容错率更高的碰撞算法。但是 Cloudflare Worker 只能运行 10ms，查询 KV 相对来说非常耗时，所以我这么设计了算法。不过这个算法也有一个好处，那就是当重复提交一个长链接时，这个算法会返回已有的短链接，不会占用额外的空间。</p>
 <p>如果你有好的算法，欢迎 PR，或者与通过邮件我讨论。当然你也可以在我的留言板里面写下你的意见，留言板的地址见博客底部。</p>
-<h2 id="最终"><a href="#最终" class="headerlink" title="最终"></a>最终</h2><p>特别感谢 <a target="_blank" rel="noopener" href="https://learningman.top/">Zxilly</a> 为本项目添加了 TypeSrcipt 支持以及 Webpack 打包。</p>
+<h2 id="最终"><a href="#最终" class="headerlink" title="最终"></a>最终</h2><p>特别感谢 <a target="_blank" rel="noopener" href="https://learningman.top/">Zxilly</a> 为本项目添加了 TypeScript 支持以及 Webpack 打包。</p>
 <p>本项目使用 MIT 协议。另外，我不希望有人将这个短链接服务用于不合适的领域。如果你在使用这个项目，可以选择通过<a href="mailto:me@mail.kininaru.dev">邮件</a>告诉我一声，如果我的代码能为你解决一些问题，那我会挺开心的 :)</p>
 <p>我是脆鲨，我永远喜欢 nanami！</p>
 <p><img src="https://images.chromium.link/c8d01e4cee21632345fbce222c63b21b489eab7a.png@518w.webp" srcset="/img/loading.gif" lazyload alt="nana7mi"></p>
