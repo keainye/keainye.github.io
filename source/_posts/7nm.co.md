@@ -11,7 +11,7 @@ date: 2021/11/08 13:34
 
 ## 设计概览
 
-这个短链接服务完全部署在 Cloudflare Workers 中，我相信 Cloud Flare 对于并发的处理肯定比我自己的服务器强 ~~才不是懒得备案~~ ，并且 Cloudflare Workers KV 这个设计我还是挺满意的。
+这个短链接服务完全部署在 Cloudflare Workers 中，我相信 Cloudflare 对于并发的处理肯定比我自己的服务器强 ~~才不是懒得备案~~ ，并且 Cloudflare Workers KV 这个设计我还是挺满意的。
 
 整个短链接服务分为两个程序（[ShortLink](https://github.com/Kininaru/short-link), [ShortLinkApi](https://github.com/Kininaru/short-link-api)），使用了两个 KV 命名空间。其中，`ShortLink` 是提供跳转的主程序；`ShortLinkApi` 是控制程序，负责生成、修改、删除、覆盖短链接。
 
@@ -109,7 +109,7 @@ date: 2021/11/08 13:34
   ```json
   {
       "shortLink": "/special",
-      "link": "https:/special.example.com/links"
+      "link": "https://special.example.com/links"
   }
   ```
 
@@ -194,7 +194,7 @@ let body = await request.json();
 
 ## 最终
 
-特别感谢 [Zxilly](https://learningman.top/) 为本项目添加了 TypeScript 支持以及 Webpack 打包。
+特别感谢 [Zxilly](https://github.com/Zxilly) 为本项目添加了 TypeScript 支持以及 Webpack 打包。
 
 本项目使用 MIT 协议。另外，我不希望有人将这个短链接服务用于不合适的领域。如果你在使用这个项目，可以选择通过[邮件](mailto:me@mail.kininaru.dev)告诉我一声，如果我的代码能为你解决一些问题，那我会挺开心的 :)
 
