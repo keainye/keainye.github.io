@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kininaru Blog</title>
+  
+  
+  <link href="https://kininaru.dev/atom.xml" rel="self"/>
+  
+  <link href="https://kininaru.dev/"/>
+  <updated>2021-11-16T01:24:35.574Z</updated>
+  <id>https://kininaru.dev/</id>
+  
+  <author>
+    <name>Kininaru</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自用短链接服务</title>
+    <link href="https://kininaru.dev/7nm.co/"/>
+    <id>https://kininaru.dev/7nm.co/</id>
+    <published>2021-11-08T13:34:00.000Z</published>
+    <updated>2021-11-16T01:24:35.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;7nm.co&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在 5 个字母以内又好听不贵的域名已经不好找了，找了一晚上才找到这一个 qwq&lt;/p&gt;
+&lt;p&gt;见过了许多短域名（b23.tv, 3.cn,</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的域名变迁</title>
+    <link href="https://kininaru.dev/domains/"/>
+    <id>https://kininaru.dev/domains/</id>
+    <published>2021-10-30T22:50:00.000Z</published>
+    <updated>2021-11-16T01:24:35.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;自 2018</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>WSL2 and Windows Terminal</title>
+    <link href="https://kininaru.dev/wsl2/"/>
+    <id>https://kininaru.dev/wsl2/</id>
+    <published>2021-10-03T13:28:00.000Z</published>
+    <updated>2021-11-16T01:24:35.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Windows 是最好的 Linux 发行版。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;WSL2 发布以后就一直有人这么评论。最近发现 WSL2 和 Windows Terminal 配合起来无比好用。&lt;/p&gt;
+&lt;h2 id=&quot;效果&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Google Summer of Code 2021 Final Evaluation</title>
+    <link href="https://kininaru.dev/gsoc-report/"/>
+    <id>https://kininaru.dev/gsoc-report/</id>
+    <published>2021-08-23T14:44:00.000Z</published>
+    <updated>2021-11-16T01:24:35.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;This is my final evaluation of Google Summer of Code 2021.&lt;/p&gt;
+&lt;p&gt;I worked in Casbin this summer, and my job is to write code for &lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我与 Apple</title>
+    <link href="https://kininaru.dev/apple/"/>
+    <id>https://kininaru.dev/apple/</id>
+    <published>2021-08-09T23:30:00.000Z</published>
+    <updated>2021-11-16T01:24:35.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;8 月 7 日早上，我听说 iCloud 相册会对用户上传的图片进行审查。随后我找到了&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Google Summer of Code</title>
+    <link href="https://kininaru.dev/gsoc/"/>
+    <id>https://kininaru.dev/gsoc/</id>
+    <published>2021-05-18T02:00:00.000Z</published>
+    <updated>2021-11-16T01:24:35.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今年申请了 Google Summer of Code，向 Casbin 社区投递了 &lt;a href=&quot;https://archives.kininaru.dev/gsoc/2021/proposal.pdf&quot;&gt;Proposal&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;5 月 18</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About</title>
+    <link href="https://kininaru.dev/about/"/>
+    <id>https://kininaru.dev/about/</id>
+    <published>2001-05-05T12:00:00.000Z</published>
+    <updated>2021-11-16T01:24:35.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;关于我&quot;&gt;&lt;a href=&quot;#关于我&quot; class=&quot;headerlink&quot; title=&quot;关于我&quot;&gt;&lt;/a&gt;关于我&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;大三&lt;/li&gt;
+&lt;li&gt;C++ 爱好者，认为手动 GC 才是工程师的浪漫&lt;/li&gt;
+&lt;li&gt;Golang,</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
