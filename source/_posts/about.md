@@ -23,4 +23,4 @@ date: 2001/5/5 12:00:00
 
 Email: me@mail.kininaru.dev
 
-GitHub: [嘉心草莓](https://github.com/Kininaru)
+GitHub: [嘉心猫](https://github.com/Kininaru)
