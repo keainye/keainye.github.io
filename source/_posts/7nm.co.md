@@ -5,9 +5,7 @@ date: 2021/11/08 13:34
 
 **7nm.co**
 
-现在 5 个字母以内又好听不贵的域名已经不好找了，找了一晚上才找到这一个 qwq
-
-见过了许多短域名（b23.tv, 3.cn, t.cn）后，觉得短链接服务确实挺帅的，于是决定自己搭建一个短链接服务。恰好最近在看 VTB，七海 nanami，就买了个 `7nm.co`，不仅是七海的缩写，还有 7 纳米的含义。
+现在 5 个字母以内又好听不贵的域名已经不好找了，找了一晚上才找到这一个。`7nm.co` 的含义是 7 纳米。
 
 ## 设计概览
 
@@ -197,8 +195,4 @@ let body = await request.json();
 特别感谢 [Zxilly](https://github.com/Zxilly) 为本项目添加了 TypeScript 支持以及 Webpack 打包。
 
 本项目使用 MIT 协议。另外，我不希望有人将这个短链接服务用于不合适的领域。如果你在使用这个项目，可以选择通过[邮件](mailto:me@mail.kininaru.dev)告诉我一声，如果我的代码能为你解决一些问题，那我会挺开心的 :)
-
-我是脆鲨，我永远喜欢 nanami！
-
-![nana7mi](https://images.chromium.link/c8d01e4cee21632345fbce222c63b21b489eab7a.png@518w.webp)
 
