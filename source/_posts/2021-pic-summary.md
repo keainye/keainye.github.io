@@ -14,17 +14,17 @@ ___
 
 ___
 
-### 武汉北郊的烟囱
+### 烟囱
 
-![IMG_20210110_130109](https://images.chromium.link/blog/1XpT9Fe3ygo.jpg)
+![](https://images.chromium.link/blog/1XpT9Fe3ygo.jpg)
 
 <center>前往武汉站坐车回家时，在站外看到了远处的烟囱。在武汉读书的几年里，对武汉最深的印象就是空气太差了，天气也不好。只要不是夏天，武汉就没晴过几天，一直阴着，偶尔来点小雨，一点都不干脆。偶尔放晴，也有严重的雾霾。郊区的楼本来就旧，蒙上一层雾霾，有一种末日废墟的感觉。</center>
 
 ___
 
-### 时代的交替
+### 时代交替
 
-![IMG_20210214_114714](https://images.chromium.link/blog/1XpTfvbpIkI.jpg)
+![](https://images.chromium.link/blog/1XpTfvbpIkI.jpg)
 
 <center>春节回老家，在楼顶拍的照片。远处是新城区，近处是老城区。老城区的房子很矮，并且看起来很旧；新城区的房子又高又新。对比起来有一种赛博朋克的感觉。（虽然我没玩过赛博朋克 2077 就是了 233）</center>
 
@@ -40,7 +40,7 @@ ___
 
 ### 夏
 
-![IMG_20210623_194705_onFire(Abhi)](https://images.chromium.link/blog/1XpTpXXbcOk.jpg)
+![](https://images.chromium.link/blog/1XpTpXXbcOk.jpg)
 
 <center>还是夏天好</center>
 
