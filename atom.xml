@@ -6,7 +6,7 @@
   <link href="https://kininaru.dev/atom.xml" rel="self"/>
   
   <link href="https://kininaru.dev/"/>
-  <updated>2022-01-31T15:15:51.128Z</updated>
+  <updated>2022-02-05T12:39:15.204Z</updated>
   <id>https://kininaru.dev/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://kininaru.dev/2021-pic-summary/"/>
     <id>https://kininaru.dev/2021-pic-summary/</id>
     <published>2022-01-27T00:00:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
+    <updated>2022-02-05T12:39:15.204Z</updated>
     
     
       
@@ -44,7 +44,7 @@
     <link href="https://kininaru.dev/7nm.co/"/>
     <id>https://kininaru.dev/7nm.co/</id>
     <published>2021-11-08T13:34:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
+    <updated>2022-02-05T12:39:15.204Z</updated>
     
     
       
@@ -63,57 +63,11 @@
   </entry>
   
   <entry>
-    <title>我的域名变迁</title>
-    <link href="https://kininaru.dev/domains/"/>
-    <id>https://kininaru.dev/domains/</id>
-    <published>2021-10-30T22:50:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;自 2018</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>WSL2 and Windows Terminal</title>
-    <link href="https://kininaru.dev/wsl2/"/>
-    <id>https://kininaru.dev/wsl2/</id>
-    <published>2021-10-03T13:28:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Windows 是最好的 Linux 发行版。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;WSL2 发布以后就一直有人这么评论。最近发现 WSL2 和 Windows Terminal 配合起来无比好用。&lt;/p&gt;
-&lt;h2 id=&quot;效果&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Google Summer of Code 2021 Final Evaluation</title>
     <link href="https://kininaru.dev/gsoc-report/"/>
     <id>https://kininaru.dev/gsoc-report/</id>
     <published>2021-08-23T14:44:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
+    <updated>2022-02-05T12:39:15.208Z</updated>
     
     
       
@@ -135,7 +89,7 @@
     <link href="https://kininaru.dev/apple/"/>
     <id>https://kininaru.dev/apple/</id>
     <published>2021-08-09T23:30:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
+    <updated>2022-02-05T12:39:15.204Z</updated>
     
     
       
@@ -156,7 +110,7 @@
     <link href="https://kininaru.dev/gsoc/"/>
     <id>https://kininaru.dev/gsoc/</id>
     <published>2021-05-18T02:00:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
+    <updated>2022-02-05T12:39:15.208Z</updated>
     
     
       
@@ -178,7 +132,7 @@
     <link href="https://kininaru.dev/about/"/>
     <id>https://kininaru.dev/about/</id>
     <published>2001-05-05T12:00:00.000Z</published>
-    <updated>2022-01-31T15:15:51.128Z</updated>
+    <updated>2022-02-05T12:39:15.204Z</updated>
     
     
       
