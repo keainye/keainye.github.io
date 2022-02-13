@@ -30,7 +30,7 @@ tab_title_separator: " - "
 
 # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
 # Force all links to be HTTPS (applicable to HTTP mixed error)
-force_https: false
+force_https: true
 
 # 代码块的增强配置
 # Enhancements to code blocks
@@ -716,9 +716,15 @@ links:
     }
     - {
       title: "嘉然今天吃什么",
-      intro: "关注嘉然然，顿顿解馋馋！",
+      intro: "关注嘉然然, 顿顿解馋馋!",
       link: "https://space.bilibili.com/672328094",
-      avatar: "https://i2.hdslb.com/bfs/face/d399d6f5cf7943a996ae96999ba3e6ae2a2988de.jpg"
+      avatar: "/img/Diana.png"
+    }
+    - {
+      title: "Edmond",
+      intro: "研究魔法🔮🃏",
+      link: "https://edmondja.top/",
+      avatar: "https://avatars.githubusercontent.com/u/79526086?s=96&v=4"
     }
     - {
       title: "Zxilly",
