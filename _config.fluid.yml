@@ -547,7 +547,7 @@ post:
   # Custom content at the bottom of the post page (located above the footer)
   custom:
     enable: true
-    content: '<div style="width: 100%; text-align: center">此博客并没有开启评论功能。留言请前往 <a href='https://please.takemeto.icu/'>please.takemeto.icu</a></div>'
+    content: '<div style="width: 100%; text-align: center">此博客并没有开启评论功能。留言请前往 <a href="https://please.takemeto.icu/">please.takemeto.icu</a></div>'
 
   # 文章图片可点击放大
   # Zoom feature of images
