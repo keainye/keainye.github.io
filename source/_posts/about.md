@@ -8,19 +8,15 @@ date: 2001/5/5 12:00:00
 - C++ 爱好者，认为手动 GC 才是工程师的浪漫
 - Golang, Javascript, TypeScript
 - 正在考研
-- 正在读文史类的书，希望自己的思维方式更接近人类，而不是机器
-- 希望成为一个艺术家（美好的愿望）
 
 ## 爱好
 
-- AU（A-SOUL）
-- 文学（历史方面）
+- A-SOUL
+- 文学（历史和小说方面）
 - 摄影
-
-快来找我聊聊吧😭我好无聊啊😭以上三点都能聊捏🤤
 
 ## 联系我
 
 Email: shiftregister233@outlook.com
 
-GitHub: [嘉心猫](https://github.com/Kininaru)
+GitHub: [嘉心草莓](https://github.com/Kininaru)
