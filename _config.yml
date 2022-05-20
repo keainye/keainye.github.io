@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kininaru Blog
+title: 嘉心草莓的博客
 subtitle: ''
-description: 'Kininaru blog'
+description: '嘉心草莓的博客'
 keywords:
-author: Kininaru
+author: 嘉心草莓
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://kininaru.dev/
+url: https://please.takemeto.icu/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -21,10 +21,10 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 favicon:
-  small: https://archives.kininaru.dev/images/chromium-link-logo.svg
-  medium: https://archives.kininaru.dev/images/chromium-link-logo.svg
-  apple_touch_icon: https://archives.kininaru.dev/images/chromium-link-logo.svg
-  safari_pinned_tab: https://archives.kininaru.dev/images/chromium-link-logo.svg
+  small: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
+  medium: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
+  apple_touch_icon: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
+  safari_pinned_tab: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
 
 # Directory
 source_dir: source
