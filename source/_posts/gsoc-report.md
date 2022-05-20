@@ -5,7 +5,7 @@ date: 2021/8/23 14:44:00
 
 This is my final evaluation of Google Summer of Code 2021.
 
-I worked in Casbin this summer, and my job is to write code for [Casdoor](https://github.com/casbin/casdoor) and [Casnode](https://github.com/casbin/casnode). Click the link to read [My Proposal of Google Summer of Code 2021](https://archives.kininaru.dev/gsoc/2021/proposal.pdf).
+I worked in Casbin this summer, and my job is to write code for [Casdoor](https://github.com/casbin/casdoor) and [Casnode](https://github.com/casbin/casnode). Click the link to read [My Proposal of Google Summer of Code 2021](https://please.takemeto.icu/archive/gsoc/2021/proposal.pdf).
 
 The first part of this report is a brief summary of my work. For detailed contributions, please read the summary of pull requests below.
 
