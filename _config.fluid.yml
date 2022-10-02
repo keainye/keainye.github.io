@@ -710,27 +710,15 @@ links:
   items:
     - {
       title: "GitHub",
-      intro: "嘉心糖",
-      link: "https://github.com/DianaCandy",
+      intro: "Kininaru",
+      link: "https://github.com/kininaru",
       avatar: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-    }
-    - {
-      title: "嘉然今天吃什么",
-      intro: "因为嘉然所在的团体有一个恶臭的运营，所以不推荐大家关注。",
-      link: "https://space.bilibili.com/672328094",
-      avatar: "/img/Diana.png"
     }
     - {
       title: "Edmond",
       intro: "研究魔法🔮🃏",
       link: "https://edmondja.top/",
       avatar: "https://avatars.githubusercontent.com/u/79526086?s=96&v=4"
-    }
-    - {
-      title: "Zxilly",
-      intro: "我的高中同学",
-      link: "https://learningman.top",
-      avatar: "https://secure.gravatar.com/avatar/7d3206c7b42edbb643e6b2fe29f2f0b9?s=512&d=mm&r=x"
     }
     - {
       title: "WindSpirit IT",
@@ -743,12 +731,6 @@ links:
       intro: "摒弃世俗之浮躁，留我钻研之刻苦。",
       link: "https://kcode.icu",
       avatar: "https://avatars.githubusercontent.com/u/51157931?v=4"
-    }
-    - {
-      title: "Ximena",
-      intro: "ACM 大师",
-      link: "http://ximena.top",
-      avatar: "http://ximena.top/medias/avatar.jpg"
     }
 
   # 当成员头像加载失败时，替换为指定图片
