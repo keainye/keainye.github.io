@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>File Bus</title>
+    <link href="/file-bus/"/>
+    <url>/file-bus/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文可能与 “我与 Apple” 这篇文章有抵触的观点，但我并不打算修改那片文章，因为历史观点不具有现实意义。事物都处于绝对的变化之中，人的思想也是。没有任何变化余地的思想，是邪恶的、落后的，因此我要正确认识自己的历史性，辩证地看待每个阶段的认知。</p></blockquote><p>File Bus 是一个跨系统跨设备的文件同步体系。这款软件最初的目的是在 Android、iOS、Windows 系统间同步照片。出于扩展性考虑，我在原有需求上添加了一些较为通用的功能，完成了对于本软件的设计。</p><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>本软件可以在不同操作系统上，按照给定的策略，将不同后缀的文件同步到合适的文件夹。我将在 Windows 和 Android 上运行这个软件，配合 Windows 版的 iCloud，完成 Android 和 iOS 之间的同步工作。</p><p>本软件使用两套连接：</p><ol><li><p>基于 UDP 的一个自研 ARQ 协议，用于控制连接</p></li><li><p>基于 HTTP 的数据连接</p></li></ol><p>请不要对本项目的代码做任何研究。本项目是纯搬砖代码，没有任何技术意义，只有实践意义，只满足了我个人的同步需求。</p><h3 id="本项目的根本动力"><a href="#本项目的根本动力" class="headerlink" title="本项目的根本动力"></a>本项目的根本动力</h3><p>马克思教导我们，促使事物发展的根本动力，是它内部主要矛盾的主要方面。本项目的主要矛盾是：Android 设备不能与 iCloud 同步的现实与本人同时拥有 iPhone、iPad、Android 并且希望能在其间完美同步的美好愿望之间的矛盾。</p><h3 id="本项目的阻碍因素"><a href="#本项目的阻碍因素" class="headerlink" title="本项目的阻碍因素"></a>本项目的阻碍因素</h3><p>我计划在 2022 年底参加国家组织的研究生招生考试，因此今年的首要任务是学习。对于这个项目来说，学习是阻碍工程进度的外因，今年内这个项目的进展必然是缓慢的，甚至可能在圣诞节前都只有一个草案。</p><p>学习任务的紧迫性决定了项目的长期性，但学习任务并没有改变本项目的根本矛盾，不会也不能改变项目的前进方向。这个项目是有用的，有用的项目是一定能够完成的。</p><h3 id="iCloud-与-Android-之间同步的必要性"><a href="#iCloud-与-Android-之间同步的必要性" class="headerlink" title="iCloud 与 Android 之间同步的必要性"></a>iCloud 与 Android 之间同步的必要性</h3><blockquote><p>必要性是相对我个人而言的。对于不同的主体，使用价值的评价也不同，个人评价不具有普遍性。</p></blockquote><p>调研了市面上所有相册产品，我发现所有国产手机厂商开发的相册，都具有强烈的局限性。一家的云服务只能在这家的设备上使用，不方便日后更换手机。</p><p>因此，对于 iOS 优化尚可的相册只剩下 iCloud 和 G 公司的 Photos App。G 公司开发的 Photos 服务看起来非常完美，但是 G 公司对于大陆用户的激进态度导致 G 相册充钱异常困难，并且账号随时可能被封。</p><p>环顾四周，只剩下 Apple iCloud 可供选择。</p><h3 id="选择-iCloud-的可能性"><a href="#选择-iCloud-的可能性" class="headerlink" title="选择 iCloud 的可能性"></a>选择 iCloud 的可能性</h3><p>iCloud 在 Windows 平台上是以文件夹形式进行相册同步的，这使 iCLoud 同步成为了可能。我不用去分析 Apple 网页源码，更不用去反推 iCloud API。我可以读取该文件夹内所有文件，并维护一个图片列表，与其他平台比对，互相补充。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>自用短链接服务</title>
     <link href="/7nm.co/"/>
     <url>/7nm.co/</url>
@@ -60,7 +73,7 @@
     <link href="/about/"/>
     <url>/about/</url>
     
-    <content type="html"><![CDATA[<p>考研狗一枚。今年可能不会在网上活跃… 年底就复活啦 :)</p><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>C++ 爱好者，认为手动 GC 才是工程师的浪漫</li><li>Golang, Javascript, TypeScript</li><li>正在考研</li></ul><h2 id="爱好"><a href="#爱好" class="headerlink" title="爱好"></a>爱好</h2><ul><li>A-SOUL</li><li>文学（历史和小说方面）</li><li>摄影</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#x73;&#104;&#x69;&#102;&#x74;&#114;&#101;&#103;&#x69;&#x73;&#116;&#x65;&#114;&#x32;&#51;&#51;&#64;&#x6f;&#117;&#x74;&#108;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#x73;&#104;&#x69;&#102;&#x74;&#114;&#101;&#103;&#x69;&#x73;&#116;&#x65;&#114;&#x32;&#51;&#51;&#64;&#x6f;&#117;&#x74;&#108;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a></p><p>GitHub: <a href="https://github.com/kininaru">Kininaru</a></p>]]></content>
+    <content type="html"><![CDATA[<p>考研狗一枚。今年可能不会在网上活跃… 年底就复活啦 :)</p><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>C++ 爱好者，认为手动 GC 才是工程师的浪漫</li><li>Golang, Javascript, TypeScript</li><li>正在考研</li></ul><h2 id="爱好"><a href="#爱好" class="headerlink" title="爱好"></a>爱好</h2><ul><li>A-SOUL</li><li>文学（历史和小说方面）</li><li>摄影</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#115;&#104;&#105;&#102;&#116;&#114;&#x65;&#x67;&#105;&#115;&#x74;&#x65;&#114;&#50;&#x33;&#51;&#x40;&#x6f;&#117;&#x74;&#108;&#x6f;&#111;&#x6b;&#x2e;&#x63;&#111;&#x6d;">&#115;&#104;&#105;&#102;&#116;&#114;&#x65;&#x67;&#105;&#115;&#x74;&#x65;&#114;&#50;&#x33;&#51;&#x40;&#x6f;&#117;&#x74;&#108;&#x6f;&#111;&#x6b;&#x2e;&#x63;&#111;&#x6d;</a></p><p>GitHub: <a href="https://github.com/kininaru">Kininaru</a></p>]]></content>
     
     
     
