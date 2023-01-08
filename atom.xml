@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>嘉心草莓的博客</title>
+  <title>Akademiya</title>
   
   
   <link href="https://please.takemeto.icu/atom.xml" rel="self"/>
   
   <link href="https://please.takemeto.icu/"/>
-  <updated>2023-01-08T04:58:39.402Z</updated>
+  <updated>2023-01-08T10:47:23.688Z</updated>
   <id>https://please.takemeto.icu/</id>
   
   <author>
-    <name>嘉心草莓</name>
+    <name>Kininaru</name>
     
   </author>
   
@@ -21,7 +21,7 @@
     <link href="https://please.takemeto.icu/7nm.co/"/>
     <id>https://please.takemeto.icu/7nm.co/</id>
     <published>2021-11-08T13:34:00.000Z</published>
-    <updated>2023-01-08T04:58:39.402Z</updated>
+    <updated>2023-01-08T10:47:23.688Z</updated>
     
     
       
@@ -46,7 +46,7 @@
     <link href="https://please.takemeto.icu/gsoc-report/"/>
     <id>https://please.takemeto.icu/gsoc-report/</id>
     <published>2021-08-23T14:44:00.000Z</published>
-    <updated>2023-01-08T04:58:39.402Z</updated>
+    <updated>2023-01-08T10:47:23.688Z</updated>
     
     
       
@@ -68,7 +68,7 @@
     <link href="https://please.takemeto.icu/apple/"/>
     <id>https://please.takemeto.icu/apple/</id>
     <published>2021-08-09T23:30:00.000Z</published>
-    <updated>2023-01-08T04:58:39.402Z</updated>
+    <updated>2023-01-08T10:47:23.688Z</updated>
     
     
       
@@ -89,7 +89,7 @@
     <link href="https://please.takemeto.icu/gsoc/"/>
     <id>https://please.takemeto.icu/gsoc/</id>
     <published>2021-05-18T02:00:00.000Z</published>
-    <updated>2023-01-08T04:58:39.402Z</updated>
+    <updated>2023-01-08T10:47:23.688Z</updated>
     
     
       
@@ -111,7 +111,7 @@
     <link href="https://please.takemeto.icu/about/"/>
     <id>https://please.takemeto.icu/about/</id>
     <published>2001-05-05T12:00:00.000Z</published>
-    <updated>2023-01-08T04:58:39.402Z</updated>
+    <updated>2023-01-08T10:47:23.688Z</updated>
     
     
       
