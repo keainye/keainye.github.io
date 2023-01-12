@@ -3,6 +3,8 @@ title: 我与 Apple
 date: 2021/08/09 23:30:00
 ---
 
+> 历史文件不具有现实意义，作者已真香（逃
+
 8 月 7 日早上，我听说 iCloud 相册会对用户上传的图片进行审查。随后我找到了[原文](https://www.apple.com/child-safety/)，证实了这一消息。
 
 这个新政策的大意是，对于某一类特定的违规图片，iCloud 会在上传前分析内容。如果违规，就提取特征上报。如果这个特征的上报次数到了一个阈值，并且在一个给定的库中，又通过了人工审核，Apple 就会禁用你的账户，并且举报你。
@@ -13,7 +15,7 @@ date: 2021/08/09 23:30:00
 
 刚开始的几个小时内，我非常矛盾。因为 Apple 这个行为是防止犯罪的，而我也支持防止犯罪，但这又触及了我的底线。在网上看了一些文章后，我逐渐理清了思路。在一封对 Apple 的公开信中，我读到了这些内容：
 
->*“It’s impossible to build a client-side scanning system that can only be used for sexually explicit images sent or received by children. As a consequence, even a well-intentioned effort to build such a system will break key promises of the messenger’s encryption itself and open the door to broader abuses […] That’s not a slippery slope; that’s a fully built system just waiting for external pressure to make the slightest change.”*
+> *“It’s impossible to build a client-side scanning system that can only be used for sexually explicit images sent or received by children. As a consequence, even a well-intentioned effort to build such a system will break key promises of the messenger’s encryption itself and open the door to broader abuses […] That’s not a slippery slope; that’s a fully built system just waiting for external pressure to make the slightest change.”*
 
 Apple 的这个新系统，不可能只针对这类违规行为。只要外部施压，这些代码就可以找出任何类型的图片。现在，这些代码只在美国生效，并且只针对这类行为，但是以后呢？结合这个观点，我再次确认：**我的任何资料，都是潜在的删除对象。**
 
@@ -59,9 +61,9 @@ iOS 一次又一次地刷新我的认知，原来 UI 还可以做成这样。早
 
 Apple 的 UI 实在是过于美好，美好到抑制了我的一些想法。
 
->谷歌有猫病。大家都下意识把谷歌看作一只猫猫。
->
->猫猫犯错的时候，我们都会说：哎呀，猫猫打翻了水杯，但没关系，毕竟它只是一只猫猫啊！
+> 谷歌有猫病。大家都下意识把谷歌看作一只猫猫。
+> 
+> 猫猫犯错的时候，我们都会说：哎呀，猫猫打翻了水杯，但没关系，毕竟它只是一只猫猫啊！
 
 某种意义上，我也把 Apple 看作了一只猫。只要 Apple 不触碰我的底线，那我就能一直追捧它。
 
@@ -82,4 +84,3 @@ iCloud 审查内容的代码在 macOS 12 才会上线，我的 Mac 现在还是 
 **2021-09-23 update** 
 
 现在已经卖掉了 mac，入手了一台轻薄本，Windows 11 还是挺不错的。以后不会用任何 Apple 的产品了，并且反对一切与 Apple 有关的东西（Apple 的艺术设计除外，他们的艺术设计还是可以肯定的）。
-
