@@ -25,7 +25,7 @@ date: 2021/11/08 13:34
 
 出于法律问题，这个短链接服务我仅打算自用。但是代码是完全公开的，并且与 `7nm.co` 没有强耦合。
 
-如果你在使用过程中有任何问题，或者发现了任何 bug，请发邮件至 [me@mail.kininaru.dev](mailto:me@mail.kininaru.dev)。如需部署，请按照以下步骤配置。
+如果你在使用过程中有任何问题，或者发现了任何 bug，请发邮件至 [shiftregister233@outlook.com](mailto:shiftregister233@outlook.com)。如需部署，请按照以下步骤配置。
 
 假设你需要为 `example.com` 配置短链接服务，并在 `api.example.com` 控制这个服务，那么你需要：
 
@@ -54,24 +54,25 @@ date: 2021/11/08 13:34
 **api.example.com/add**
 
 - 从一个普通链接生成一个短链接
+
 - `POST`
 
 - request body 应该是一个 JSON，形如
-
+  
   ```json
   { "link": "https://another.example.com/urlpath" }
   ```
 
 - 返回值是一个 JSON
-
+  
   ```json
   { "code": 0, "msg": "/FL44zE"}
   ```
-
+  
   `code` 为 0 时则添加成功，`msg` 为短链接的 `urlpath`。在 `urlpath` 前加上 `example.com` 就能 302 跳转。
-
+  
   `code` 为 1 时添加失败，失败原因会存在 `msg` 中，目前有 `"link error"` 和 `"no extra space"`，前者意味着你提交的链接格式非法，后者说明在生成短链接的时候，发生了两次 MD5 碰撞，需要增加链接长度。
-
+  
   如果你遇到了后者这种情况，请给我发邮件，我会第一时间处理。同时，如果你有更好的短链接算法，也欢迎交流或者 PR。
 
 - 如果你提交了一个已生成过的普通链接，则会返回之前生成的短链接链接。
@@ -81,21 +82,21 @@ date: 2021/11/08 13:34
 - 删除一个短链接记录
 
 - `POST`
-
+  
   其实这里应该使用 `DELETE`，更符合 HTTP 协议的语义。在后文设计思想中我会对这一点进行讨论。
 
 - request body 应该是一个 JSON，形如
-
+  
   ```json
   { "shortLink": "/FL44zE" }
   ```
 
 - 返回值是一个 JSON
-
+  
   ```json
   { "code": 0 }
   ```
-
+  
   一般来说，我们保证这次删除操作一定能够成功，所以理论上不存在例外情况。
 
 **api.example.com/set**
@@ -105,22 +106,22 @@ date: 2021/11/08 13:34
 - `POST`
 
 - request body 应该是一个 JSON，形如
-
+  
   ```json
   {
       "shortLink": "/special",
       "link": "https://special.example.com/links"
   }
   ```
-
+  
   语义很明显了，这里不做解释。
 
 - 返回值是一个 JSON
-
+  
   ```json
   { "code": 0 }
   ```
-
+  
   0 代表设定成功，1 代表短链接已存在。
 
 - 通过这个 API，你可以设置一些极短的特殊链接，比如 [7nm.co/h](https://7nm.co/h) 就可以极快地访问这个博客。当然，直接修改名为 `ShortLink` 的 Cloudflare KV 里面的映射也可以实现同样的效果。
@@ -132,14 +133,14 @@ date: 2021/11/08 13:34
 - 任意 HTTP method
 
 - 返回值是一个 JSON，当它的值是
-
+  
   ```json
   {
       "code": 0,
       "msg": "ShortApi ctrl server."
   }
   ```
-
+  
   时，我们认为服务器运作正常。
 
 ## 设计
@@ -197,4 +198,3 @@ let body = await request.json();
 特别感谢 [Zxilly](https://github.com/Zxilly) 为本项目添加了 TypeScript 支持以及 Webpack 打包。
 
 本项目使用 MIT 协议。另外，我不希望有人将这个短链接服务用于不合适的领域。如果你在使用这个项目，可以选择通过[邮件](mailto:me@mail.kininaru.dev)告诉我一声，如果我的代码能为你解决一些问题，那我会挺开心的 :)
-
