@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://please.takemeto.icu/
+url: https://takemeto.icu/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -21,10 +21,10 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 favicon:
-  small: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
-  medium: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
-  apple_touch_icon: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
-  safari_pinned_tab: https://please.takemeto.icu/archive/images/chromium-link-logo.svg
+  small: https://takemeto.icu/archive/images/chromium-link-logo.svg
+  medium: https://takemeto.icu/archive/images/chromium-link-logo.svg
+  apple_touch_icon: https://takemeto.icu/archive/images/chromium-link-logo.svg
+  safari_pinned_tab: https://takemeto.icu/archive/images/chromium-link-logo.svg
 
 # Directory
 source_dir: source
