@@ -13,6 +13,6 @@ date: 2001/5/5 12:00:00
 
 Email: shiftregister233@outlook.com
 
-GitHub: [Kininaru](https://github.com/kininaru)
+GitHub: [kininaru](https://github.com/kininaru)
 
 原神: UID 100108722
