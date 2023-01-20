@@ -381,6 +381,7 @@ footer:
   content: '
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>鄂ICP备 2023000669号</span></a>
   '
 
 #---------------------------
@@ -546,7 +547,7 @@ post:
   # 文章底部自定义区域（位于 footer 上方），支持 HTML，可插入赞赏码、公众号这类内容内容
   # Custom content at the bottom of the post page (located above the footer)
   custom:
-    enable: true
+    enable: false
     content: '<div style="width: 100%; text-align: center">此博客并没有开启评论功能。留言请前往 <a href="https://dont.takemeto.icu/">dont.takemeto.icu</a></div>'
 
   # 文章图片可点击放大
