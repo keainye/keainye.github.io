@@ -3,11 +3,11 @@
   <title>Akademiya</title>
   
   
-  <link href="https://please.takemeto.icu/atom.xml" rel="self"/>
+  <link href="https://takemeto.icu/atom.xml" rel="self"/>
   
-  <link href="https://please.takemeto.icu/"/>
-  <updated>2023-01-16T06:58:43.537Z</updated>
-  <id>https://please.takemeto.icu/</id>
+  <link href="https://takemeto.icu/"/>
+  <updated>2023-01-20T14:42:45.613Z</updated>
+  <id>https://takemeto.icu/</id>
   
   <author>
     <name>Kininaru</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>自用短链接服务</title>
-    <link href="https://please.takemeto.icu/7nm.co/"/>
-    <id>https://please.takemeto.icu/7nm.co/</id>
+    <link href="https://takemeto.icu/7nm.co/"/>
+    <id>https://takemeto.icu/7nm.co/</id>
     <published>2021-11-08T13:34:00.000Z</published>
-    <updated>2023-01-16T06:58:43.537Z</updated>
+    <updated>2023-01-20T14:42:45.613Z</updated>
     
     
       
@@ -43,10 +43,10 @@
   
   <entry>
     <title>Google Summer of Code 2021 Final Evaluation</title>
-    <link href="https://please.takemeto.icu/gsoc-report/"/>
-    <id>https://please.takemeto.icu/gsoc-report/</id>
+    <link href="https://takemeto.icu/gsoc-report/"/>
+    <id>https://takemeto.icu/gsoc-report/</id>
     <published>2021-08-23T14:44:00.000Z</published>
-    <updated>2023-01-16T06:58:43.537Z</updated>
+    <updated>2023-01-20T14:42:45.613Z</updated>
     
     
       
@@ -65,10 +65,10 @@
   
   <entry>
     <title>我与 Apple</title>
-    <link href="https://please.takemeto.icu/apple/"/>
-    <id>https://please.takemeto.icu/apple/</id>
+    <link href="https://takemeto.icu/apple/"/>
+    <id>https://takemeto.icu/apple/</id>
     <published>2021-08-09T23:30:00.000Z</published>
-    <updated>2023-01-16T06:58:43.537Z</updated>
+    <updated>2023-01-20T14:42:45.613Z</updated>
     
     
       
@@ -89,18 +89,18 @@
   
   <entry>
     <title>Google Summer of Code</title>
-    <link href="https://please.takemeto.icu/gsoc/"/>
-    <id>https://please.takemeto.icu/gsoc/</id>
+    <link href="https://takemeto.icu/gsoc/"/>
+    <id>https://takemeto.icu/gsoc/</id>
     <published>2021-05-18T02:00:00.000Z</published>
-    <updated>2023-01-16T06:58:43.537Z</updated>
+    <updated>2023-01-20T14:42:45.613Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;今年申请了 Google Summer of Code，向 Casbin 社区投递了 &lt;a href=&quot;https://please.takemeto.icu/archive/gsoc/2021/proposal.pdf&quot;&gt;Proposal&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;5 月</summary>
+    <summary type="html">&lt;p&gt;今年申请了 Google Summer of Code，向 Casbin 社区投递了 &lt;a href=&quot;https://takemeto.icu/archive/gsoc/2021/proposal.pdf&quot;&gt;Proposal&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;5 月 18</summary>
         
       
     
@@ -111,10 +111,10 @@
   
   <entry>
     <title>About</title>
-    <link href="https://please.takemeto.icu/about/"/>
-    <id>https://please.takemeto.icu/about/</id>
+    <link href="https://takemeto.icu/about/"/>
+    <id>https://takemeto.icu/about/</id>
     <published>2001-05-05T12:00:00.000Z</published>
-    <updated>2023-01-16T06:58:43.537Z</updated>
+    <updated>2023-01-20T14:42:45.613Z</updated>
     
     
       
