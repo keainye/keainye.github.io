@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>算法常用代码段</title>
+    <link href="/algorithm/"/>
+    <url>/algorithm/</url>
+    
+    <content type="html"><![CDATA[<p>此页面包含了一些算法题常用的代码段，供我随处复制。</p><h3 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h3><p>从上至下使用频率升高</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">define</span> abs(a) (a &gt; 0 ? a : -a)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> min(a, b) (a &lt; b ? a : b)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> fd(n) for(int i = n; i &gt;= 0; i--)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> max(a, b) (a &gt; b ? a : b)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> f(n) for (int i = 0; i &lt; n; i++)</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>自用短链接服务</title>
     <link href="/7nm.co/"/>
     <url>/7nm.co/</url>
@@ -60,7 +73,7 @@
     <link href="/about/"/>
     <url>/about/</url>
     
-    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>Golang, Rust</li><li>考研（准备复试中… USTC 冲冲冲！）</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#x73;&#104;&#x69;&#102;&#x74;&#114;&#x65;&#103;&#105;&#x73;&#116;&#101;&#x72;&#50;&#51;&#51;&#x40;&#x6f;&#x75;&#x74;&#x6c;&#x6f;&#111;&#x6b;&#x2e;&#x63;&#x6f;&#109;">&#x73;&#104;&#x69;&#102;&#x74;&#114;&#x65;&#103;&#105;&#x73;&#116;&#101;&#x72;&#50;&#51;&#51;&#x40;&#x6f;&#x75;&#x74;&#x6c;&#x6f;&#111;&#x6b;&#x2e;&#x63;&#x6f;&#109;</a></p><p>GitHub: <a href="https://github.com/kininaru">kininaru</a></p><p>原神: UID 100108722</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>Golang, Rust</li><li>考研（准备复试中… USTC 冲冲冲！）</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#115;&#104;&#x69;&#102;&#116;&#114;&#x65;&#103;&#x69;&#x73;&#116;&#x65;&#114;&#x32;&#51;&#51;&#64;&#111;&#117;&#x74;&#x6c;&#111;&#111;&#107;&#46;&#x63;&#111;&#x6d;">&#115;&#104;&#x69;&#102;&#116;&#114;&#x65;&#103;&#x69;&#x73;&#116;&#x65;&#114;&#x32;&#51;&#51;&#64;&#111;&#117;&#x74;&#x6c;&#111;&#111;&#107;&#46;&#x63;&#111;&#x6d;</a></p><p>GitHub: <a href="https://github.com/kininaru">kininaru</a></p><p>原神: UID 100108722</p>]]></content>
     
     
     
