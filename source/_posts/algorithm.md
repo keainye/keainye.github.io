@@ -49,3 +49,15 @@ void heap_sort(int *src, int n) {
   }
 }
 ```
+
+二分查找
+
+```c
+bool bis(int *src, int s, int e, int tgt) {
+  if (s > e) return 0;
+  if (s == e) return src[s] == tgt;
+  int mid = (s+e)/2;
+  if (src[mid] == tgt) return 1;
+  return tgt < src[mid] ? bis(src, s, mid-1, tgt) : bis(src, mid+1, e, tgt);
+}
+```
