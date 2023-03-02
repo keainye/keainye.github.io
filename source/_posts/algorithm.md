@@ -10,15 +10,11 @@ date: 2023/02/28
 从上至下使用频率升高
 
 ```c
-#define ui(n) for (unsigned i = 0; i < n; i++)
-#define ids(s, e) for (int i = s; i >= e; i--)
-#define id(n) for (int i = n; i >= 0; i--)
-#define is(s, e) for (int i = s; i < e; i++)
-#define j(n) for (int j = 0; j < n; j++)
-#define i(n) for (int i = 0; i < n; i++)
 #define abs(a) (a > 0 ? a : -a)
+#define d(i, s, e) for (int i = s; i >= e; i--)
 #define min(a, b) (a < b ? a : b)
 #define max(a, b) (a > b ? a : b)
+#define f(i, s, e) for (int i = s; i < e; i++)
 ```
 
 ## 函数
