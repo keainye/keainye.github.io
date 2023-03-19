@@ -9,11 +9,11 @@ date: 2023/02/28
 从上至下使用频率升高
 
 ```c
-#define abs(a) (a > 0 ? a : -a)
 #define d(i, s, e) for (int i = s; i >= e; i--)
-#define min(a, b) (a < b ? a : b)
-#define max(a, b) (a > b ? a : b)
 #define f(i, s, e) for (int i = s; i < e; i++)
+#define abs(a) ((a) > 0 ? (a) : -(a))
+#define min(a, b) ((a) < (b) ? (a) : (b))
+#define max(a, b) ((a) > (b) ? (a) : (b))
 ```
 
 ## 函数
