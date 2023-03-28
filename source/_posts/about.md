@@ -4,8 +4,8 @@ date: 2001/5/5 12:00:00
 ---
 ## 关于我
 
+- 中国科学技术大学（USTC）
 - C/C++, Golang, Rust
-- 考研（准备复试中... USTC，冲！）
 
 ## 关于本博客
 
@@ -29,4 +29,4 @@ GitHub: [kininaru](https://github.com/kininaru)
 
 原神: UID 100108722
 
-教令院虚空技术研究所
+bilibili：教令院虚空技术研究所
