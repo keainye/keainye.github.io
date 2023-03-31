@@ -25,7 +25,7 @@ date: 2001/5/5 12:00:00
 
 Email: shiftregister233@outlook.com
 
-GitHub: [kininaru](https://github.com/kininaru)
+GitHub: [Pokyux](https://github.com/pokyux)
 
 原神: UID 100108722
 
