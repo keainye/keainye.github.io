@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title></title>
+    <link href="/rust/"/>
+    <url>/rust/</url>
+    
+    <content type="html"><![CDATA[<h3 id="所有权"><a href="#所有权" class="headerlink" title="所有权"></a>所有权</h3><p>所有权原则：一个值只能被一个变量所有，离开该变量作用域后值被抛弃。</p><p>栈对象（基本数据类型）的赋值是直接拷贝，所有权不丢失。</p><p>堆对象（非基本数据类型）的赋值是移交堆指针，故丢失所有权。</p><p><code>for item in collection</code> 丢失所有权的 for</p><p><code>for item in &amp;collection</code> 不可变借用</p><p><code>for item in &amp;mut collection</code> 可变借用</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2022 年度总结</title>
+    <link href="/2022-summary/"/>
+    <url>/2022-summary/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>2022 年的主线是研究生招生考试，我在 2023 年 3 月收到 USTC 拟录取通知后才有心情和时间来写这个年度总结。</p><p>也因为 2022 是备考的一年，故 2022 总结看起来可能像是个备考经验帖。</p></blockquote><h3 id="1-月"><a href="#1-月" class="headerlink" title="1 月"></a>1 月</h3><p>年前计划大三直接去找工作，进个大厂，但是父母建议我考研。</p><p>高中时我成绩一直垫底，到高三后就有些厌学。再加上当时学习方法有误、对几门学科的理解出问题了，高考成绩并不是很理想。屡战屡败的经历让我讨厌所有考试，当时（或者说现在依然）比较偏向于面试笔试那种高容错的形式。</p><p>但无奈当时太懒了，LeetCode 不想刷，简历不想写，更是懒得找 HR 对线。冲浪几周后我也感觉考研可能是个更好的选择，有更大的进步空间，于是过年几天开始择校。</p><p>既然要考就考个有名的学校。抱着这个想法，过年期间调查了一众 985 高校的 408 专业。</p><p>清华大学：自命题、数学 1（排除）</p><p>北京大学：数学 1，400+（排除）</p><p>上海交通大学：招生人数太少（排除）</p><p>同济大学：数学 1（排除）</p><p>复旦大学：数学 2，招生人数多（嗯就这个）</p><p>然后就没往下看了。虽然最终没有报考复旦大学，但是年初定下一个好学校，对我整年的复习是有促进作用的。每次学不下去的时候就去看看复旦大学的教授们，感觉各个都是神中神，于是拿起书继续攀登科学高峰（误）。</p><h3 id="2-月"><a href="#2-月" class="headerlink" title="2 月"></a>2 月</h3><p>正式复习大概是 2 月份开始的，在父母的建议下先买了政治数学书开始看。</p><p>政治当时还没出 23 考研辅导书，因此我买的是 22 旧版辅导书，事实证明这是个错误的选择。考研教辅机构已经非常成熟了，从基础到考前冲刺，有一套完整的流程。我们完全可以跟着他们的节奏来复习（甚至慢一些都没关系），而不是自作主张地买去年的书。错误的时间做正确的事，也是一种浪费。</p><p>但是数学当时已经出了 23 辅导书，于是寒假 2 月就开始了数学 1 轮。也正是数学复习过程中，我找到了一种高效且正确的学习方法。这套方法我从 2 月一直用到 10 月结束所有复习，屡试不爽。</p><p>假设需要在 6 个月把 4 本书看 2 遍，每本书 300 页。那么计划就是每天看 10 页，一个月看完一本，4 个月看完第一轮，再花 2 个月复习一遍（甚至 2 遍）。</p><p>一般来说每天看 10 页书的时间是固定的（对我而言是 2h），所以这样的计划能很方便地规划时间。</p><p>此外，这种规划方式还有一个好处：安心。</p><blockquote><p>看完 4 本书考试一定能考好 -&gt; 6 个月一定要看完 4 本书 -&gt; 前 4 个月一定要看完一轮 -&gt; 每天一定要看 10 页</p></blockquote><blockquote><p>每天看了 10 页 -&gt; 前 4 个月一定能看完一轮 -&gt; 6 个月一定能吃透 4 本书 -&gt; 考试一定能考好</p></blockquote><p>如此两条“信任链”下来，我每天只要安心看完 10 页书，进度就一定能推进，也就不用焦虑“时间够不够”、“考试能不能考好”这种问题了。每天从图书馆回家后都很安心，能没有心理负担地开摆。</p><p>为什么看完 4 本书就能考好？这就是历史经验了。一般来说，只要复习期间不自己骗自己地看完书，就能考上。</p><h3 id="3-月"><a href="#3-月" class="headerlink" title="3 月"></a>3 月</h3><p>开始复习专业课。3 月的某天寒假结束，返校继续复习。</p><p>返校后在宿舍复习，感觉效率不太行。某日感觉不能再这样堕落，于是决定去图书馆。那天在图书馆，一下午完成了往日一天的工作量，回到宿舍打游戏时内心是前所未有的平静。从那以后，我每天去图书馆，早早完成当日工作量，然后回去高强度掉分。</p><p>图书馆可能不适合所有人，但所有人都应该去试试图书馆。人多的地方读书，都不好意思玩手机开摆。</p><h3 id="4-月"><a href="#4-月" class="headerlink" title="4 月"></a>4 月</h3><p>4 月啥也没发生（硬要说的话就是从青铜上到了白银）。</p><h3 id="5-6-月"><a href="#5-6-月" class="headerlink" title="5, 6 月"></a>5, 6 月</h3><p>备考 6 级，每天猛背单词+刷真题（事实证明 CET-6 突击靠这俩就够了）。为了六级和期末考试，考研复习中断了半个多月（一度以为自己要寄了）。</p><p>这俩月数学还试了试做习题集，但是写得有点想吐，1/3 左右就放弃了。事实证明不刷习题集数学考个 120 还是不成问题的。想冲高分的哥们别学呜呜呜</p><p>408 还剩下 ds 和半本 os。</p><h3 id="7-8-月"><a href="#7-8-月" class="headerlink" title="7, 8 月"></a>7, 8 月</h3><p>整个暑假的历史，就是数学的历史。尤其是 8 月，整天除了数学啥也没看。事后总结，数学 2 根本没必要花那么多时间看强化课，随便找一本书看，例题全写完，练习量就差不多了。之后再写真题就行。</p><p>数学开始 2 轮，看了 2 本 2 轮书，线性代数看了 1 本。408 看得只剩半本 ds（但是后半本 ds 真的好难啃）。</p><p>暑假期间 CET-6 发成绩了。CET-6 很大程度上治好了我的考试厌恶，因为与高中不同，大学看书是真能上分。这对缓解 12 月时的焦虑很有帮助。</p><h3 id="9-月"><a href="#9-月" class="headerlink" title="9 月"></a>9 月</h3><p>上半月把 408 收了个尾。下半个月开始择校，了解到复旦大学可能不是特别适合我，转而报考中国科学技术大学。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>算法常用代码段</title>
     <link href="/algorithm/"/>
     <url>/algorithm/</url>
@@ -73,7 +99,7 @@
     <link href="/about/"/>
     <url>/about/</url>
     
-    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>中国科学技术大学（USTC）</li><li>C/C++, Golang, Rust</li></ul><h2 id="关于本博客"><a href="#关于本博客" class="headerlink" title="关于本博客"></a>关于本博客</h2><p><strong>2022 02 04</strong> <code>kininaru.dev</code> -&gt; <code>takemeto.icu</code> 此域名我很满意，已备案，以后不换了<del>才不是因为 kininaru.dev 太贵</del>。</p><p><strong>2021 06 03</strong> <code>chromium.link</code> -&gt; <code>kininaru.dev</code></p><p><strong>2021 04 14</strong> 因不满 Wordpress 所使用的 PHP 语言，放弃使用 PHP（其实是因为不想续费服务器），改用 Hexo + Github Pages 部署博客。同时，注册 <code>chromium.link</code> 域名，并将其设为博客主域名。本次构建丢失了此前全部的内容。但本次构建后，所有内容保留至今。</p><p><strong>2019 11 08</strong> 上大学后才想起这回事，在大一寒假续费域名 <code>shiftregister.top</code>。基于阿里云轻量应用服务器部署，使用 Wordpress 构建。本次构建丢失了此前全部内容。</p><p><strong>2019 08</strong> <code>shiftregister.top</code> 域名过期。此前几个月 Vultr 服务器欠费停机，博客失效。</p><p><strong>2018-08</strong> 购入 <code>shiftregister.top</code> 域名和 Vultr 服务器，使用 Wordpress 构建。（现在该域名已失效，我对其中内容不做任何保证）</p><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#x73;&#x68;&#105;&#102;&#116;&#114;&#x65;&#x67;&#105;&#115;&#116;&#x65;&#114;&#x32;&#51;&#51;&#x40;&#x6f;&#117;&#x74;&#108;&#x6f;&#x6f;&#107;&#x2e;&#x63;&#111;&#109;">&#x73;&#x68;&#105;&#102;&#116;&#114;&#x65;&#x67;&#105;&#115;&#116;&#x65;&#114;&#x32;&#51;&#51;&#x40;&#x6f;&#117;&#x74;&#108;&#x6f;&#x6f;&#107;&#x2e;&#x63;&#111;&#109;</a></p><p>GitHub: <a href="https://github.com/kininaru">kininaru</a></p><p>原神: UID 100108722</p><p>bilibili：教令院虚空技术研究所</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>中国科学技术大学（USTC）</li><li>C/C++, Golang, Rust</li></ul><h2 id="关于本博客"><a href="#关于本博客" class="headerlink" title="关于本博客"></a>关于本博客</h2><p><strong>2022 02 04</strong> <code>kininaru.dev</code> -&gt; <code>takemeto.icu</code> 此域名我很满意，已备案，以后不换了<del>才不是因为 kininaru.dev 太贵</del>。</p><p><strong>2021 06 03</strong> <code>chromium.link</code> -&gt; <code>kininaru.dev</code></p><p><strong>2021 04 14</strong> 因不满 Wordpress 所使用的 PHP 语言，放弃使用 PHP（其实是因为不想续费服务器），改用 Hexo + Github Pages 部署博客。同时，注册 <code>chromium.link</code> 域名，并将其设为博客主域名。本次构建丢失了此前全部的内容。但本次构建后，所有内容保留至今。</p><p><strong>2019 11 08</strong> 上大学后才想起这回事，在大一寒假续费域名 <code>shiftregister.top</code>。基于阿里云轻量应用服务器部署，使用 Wordpress 构建。本次构建丢失了此前全部内容。</p><p><strong>2019 08</strong> <code>shiftregister.top</code> 域名过期。此前几个月 Vultr 服务器欠费停机，博客失效。</p><p><strong>2018-08</strong> 购入 <code>shiftregister.top</code> 域名和 Vultr 服务器，使用 Wordpress 构建。（现在该域名已失效，我对其中内容不做任何保证）</p><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>Email: <a href="mailto:&#115;&#104;&#105;&#x66;&#x74;&#114;&#x65;&#x67;&#x69;&#115;&#116;&#x65;&#x72;&#x32;&#x33;&#x33;&#x40;&#111;&#117;&#x74;&#x6c;&#x6f;&#111;&#107;&#46;&#99;&#111;&#x6d;">&#115;&#104;&#105;&#x66;&#x74;&#114;&#x65;&#x67;&#x69;&#115;&#116;&#x65;&#x72;&#x32;&#x33;&#x33;&#x40;&#111;&#117;&#x74;&#x6c;&#x6f;&#111;&#107;&#46;&#99;&#111;&#x6d;</a></p><p>GitHub: <a href="https://github.com/kininaru">kininaru</a></p><p>原神: UID 100108722</p><p>教令院虚空技术研究所 虚空计算实验室</p><p>Institute of Akasha Technology of Akademiya, Akasha Computing Lab</p>]]></content>
     
     
     
