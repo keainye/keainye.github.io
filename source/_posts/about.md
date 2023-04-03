@@ -4,7 +4,9 @@ date: 2001/5/5 12:00:00
 ---
 ## 关于我
 
-Programming Languages: C/C++, Golang
+**编程语言:** C/C++, Golang
+
+**当前就读:** 中国科学技术大学
 
 ## 关于本博客
 
