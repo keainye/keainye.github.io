@@ -719,7 +719,13 @@ links:
       title: "Edmond",
       intro: "研究魔法🔮🃏",
       link: "https://edmondja.top/",
-      avatar: "https://avatars.githubusercontent.com/u/79526086?s=96&v=4"
+      avatar: "https://avatars.githubusercontent.com/u/79526086"
+    }
+    - {
+      title: "Kenlig",
+      intro: "没有简介",
+      link: "https://kenlig.top/",
+      avatar: "https://avatars.githubusercontent.com/u/28685375"
     }
     - {
       title: "WindSpirit IT",
