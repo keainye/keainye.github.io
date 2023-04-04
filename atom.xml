@@ -6,7 +6,7 @@
   <link href="https://takemeto.icu/atom.xml" rel="self"/>
   
   <link href="https://takemeto.icu/"/>
-  <updated>2023-04-03T12:51:18.640Z</updated>
+  <updated>2023-04-04T08:01:33.143Z</updated>
   <id>https://takemeto.icu/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Rust 笔记</title>
     <link href="https://takemeto.icu/rust/"/>
     <id>https://takemeto.icu/rust/</id>
-    <published>2023-04-03T12:51:18.640Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
+    <published>2023-04-04T00:00:00.000Z</published>
+    <updated>2023-04-04T08:01:33.143Z</updated>
     
     
       
@@ -38,34 +38,11 @@
   </entry>
   
   <entry>
-    <title>2022 年度总结</title>
-    <link href="https://takemeto.icu/2022-summary/"/>
-    <id>https://takemeto.icu/2022-summary/</id>
-    <published>2023-03-28T00:00:00.000Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;2022 年的主线是研究生招生考试，我在 2023 年 3 月收到 USTC 拟录取通知后才有心情和时间来写这个年度总结。&lt;/p&gt;
-&lt;p&gt;也因为 2022 是备考的一年，故 2022</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>算法常用代码段</title>
     <link href="https://takemeto.icu/algorithm/"/>
     <id>https://takemeto.icu/algorithm/</id>
     <published>2023-02-28T00:00:00.000Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
+    <updated>2023-04-04T08:01:33.143Z</updated>
     
     
       
@@ -88,7 +65,7 @@
     <link href="https://takemeto.icu/7nm.co/"/>
     <id>https://takemeto.icu/7nm.co/</id>
     <published>2021-11-08T13:34:00.000Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
+    <updated>2023-04-04T08:01:33.143Z</updated>
     
     
       
@@ -113,7 +90,7 @@
     <link href="https://takemeto.icu/gsoc-report/"/>
     <id>https://takemeto.icu/gsoc-report/</id>
     <published>2021-08-23T14:44:00.000Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
+    <updated>2023-04-04T08:01:33.143Z</updated>
     
     
       
@@ -135,7 +112,7 @@
     <link href="https://takemeto.icu/apple/"/>
     <id>https://takemeto.icu/apple/</id>
     <published>2021-08-09T23:30:00.000Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
+    <updated>2023-04-04T08:01:33.143Z</updated>
     
     
       
@@ -159,7 +136,7 @@
     <link href="https://takemeto.icu/gsoc/"/>
     <id>https://takemeto.icu/gsoc/</id>
     <published>2021-05-18T02:00:00.000Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
+    <updated>2023-04-04T08:01:33.143Z</updated>
     
     
       
@@ -181,7 +158,7 @@
     <link href="https://takemeto.icu/about/"/>
     <id>https://takemeto.icu/about/</id>
     <published>2001-05-05T12:00:00.000Z</published>
-    <updated>2023-04-03T12:51:18.640Z</updated>
+    <updated>2023-04-04T08:01:33.143Z</updated>
     
     
       
