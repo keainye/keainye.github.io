@@ -22,7 +22,7 @@ date: 2001/5/5 12:00:00
 
 **2019 08** `shiftregister.top` 域名过期。此前几个月 Vultr 服务器欠费停机，博客失效。
 
-**2018-08** 购入 `shiftregister.top` 域名和 Vultr 服务器，使用 Wordpress 构建。（现在该域名已失效，我对其中内容不做任何保证）
+**2018 08** 购入 `shiftregister.top` 域名和 Vultr 服务器，使用 Wordpress 构建。（现在该域名已失效，我对其中内容不做任何保证）
 
 ## 联系我
 
