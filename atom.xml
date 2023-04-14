@@ -6,7 +6,7 @@
   <link href="https://takemeto.icu/atom.xml" rel="self"/>
   
   <link href="https://takemeto.icu/"/>
-  <updated>2023-04-14T04:28:21.277Z</updated>
+  <updated>2023-04-14T04:30:36.932Z</updated>
   <id>https://takemeto.icu/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://takemeto.icu/photos/"/>
+    <id>https://takemeto.icu/photos/</id>
+    <published>2023-04-14T04:30:36.932Z</published>
+    <updated>2023-04-14T04:30:36.932Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;写完 OSS 上传 bot</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Rust 笔记</title>
     <link href="https://takemeto.icu/rust/"/>
     <id>https://takemeto.icu/rust/</id>
     <published>2023-04-04T00:00:00.000Z</published>
-    <updated>2023-04-14T04:28:21.277Z</updated>
+    <updated>2023-04-14T04:30:36.932Z</updated>
     
     
       
@@ -42,7 +64,7 @@
     <link href="https://takemeto.icu/algorithm/"/>
     <id>https://takemeto.icu/algorithm/</id>
     <published>2023-02-28T00:00:00.000Z</published>
-    <updated>2023-04-14T04:28:21.277Z</updated>
+    <updated>2023-04-14T04:30:36.932Z</updated>
     
     
       
@@ -65,7 +87,7 @@
     <link href="https://takemeto.icu/7nm.co/"/>
     <id>https://takemeto.icu/7nm.co/</id>
     <published>2021-11-08T13:34:00.000Z</published>
-    <updated>2023-04-14T04:28:21.277Z</updated>
+    <updated>2023-04-14T04:30:36.932Z</updated>
     
     
       
@@ -90,7 +112,7 @@
     <link href="https://takemeto.icu/gsoc-report/"/>
     <id>https://takemeto.icu/gsoc-report/</id>
     <published>2021-08-23T14:44:00.000Z</published>
-    <updated>2023-04-14T04:28:21.277Z</updated>
+    <updated>2023-04-14T04:30:36.932Z</updated>
     
     
       
@@ -112,7 +134,7 @@
     <link href="https://takemeto.icu/gsoc/"/>
     <id>https://takemeto.icu/gsoc/</id>
     <published>2021-05-18T02:00:00.000Z</published>
-    <updated>2023-04-14T04:28:21.277Z</updated>
+    <updated>2023-04-14T04:30:36.932Z</updated>
     
     
       
@@ -134,7 +156,7 @@
     <link href="https://takemeto.icu/about/"/>
     <id>https://takemeto.icu/about/</id>
     <published>2001-05-05T12:00:00.000Z</published>
-    <updated>2023-04-14T04:28:21.277Z</updated>
+    <updated>2023-04-14T04:30:36.932Z</updated>
     
     
       
