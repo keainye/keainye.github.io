@@ -31,7 +31,3 @@ Email: shiftregister233@outlook.com
 GitHub: [Pokyux](https://github.com/pokyux)
 
 原神: UID 100108722
-
-教令院虚空技术研究所 虚空计算实验室
-
-Institute of Akasha Technology of Akademiya, Akasha Computing Lab
