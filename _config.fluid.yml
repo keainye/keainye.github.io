@@ -312,8 +312,9 @@ navbar:
   menu:
     # - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     # - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "about", link: "/about/" }
-    - { key: "friends", link: "/links/" }
+    - { key: "About", link: "/about/" }
+    - { key: "Photos", link: "/photos/" }
+    - { key: "Friends", link: "/links/" }
     - { key: "RSS", link: "/atom.xml" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
