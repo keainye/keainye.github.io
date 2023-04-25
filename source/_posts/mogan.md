@@ -50,7 +50,7 @@ Scheme 虚拟机对应 Mogan 源码中的 `src/Scheme/S7/s7.h` 和 `src/Scheme/S
 
 `void *fast_new(size_t)` 工程中用于申请内存的函数，在调试模式下会输出一些内存相关的信息。
 
-`tm_new`
+`tm_new` 一个更安全的 `new`，可以分配内存 & 调用其构造函数。
 
 **入口函数**
 
@@ -61,3 +61,7 @@ Mogan 的入口函数是位于 `src/Texmacs/Texmacs/texmacs.cpp` 中的 `void Te
 此后，入口函数调用了 `gui_open` 启动了 UI 界面。`gui_open` 函数初始化了 `the_gui` 这个全局变量，这也是 Mogan UI 的对象。
 
 最后是一个 code block，启动了 Mogan Server。Mogan 是一个 C/S 模式的程序，Server 负责提供核心逻辑，Client（也就是 `the_gui`）负责渲染内容。
+
+**the_gui**
+
+属于 `qt_gui_rep` 类，是 Mogan UI 全局对象，在 `gui_open` 中被初始化。
