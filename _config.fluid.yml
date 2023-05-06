@@ -547,8 +547,9 @@ post:
   # 文章底部自定义区域（位于 footer 上方），支持 HTML，可插入赞赏码、公众号这类内容内容
   # Custom content at the bottom of the post page (located above the footer)
   custom:
-    enable: false
-    content: '<div style="width: 100%; text-align: center">此博客并没有开启评论功能。留言请前往 <a href="https://dont.takemeto.icu/">dont.takemeto.icu</a></div>'
+    enable: true
+    content: '<div style="width: 100%; text-align: center">此博客于 2021 年 4 月 14 日开始运行</div>'
+    # content: '<div style="width: 100%; text-align: center">此博客并没有开启评论功能。留言请前往 <a href="https://dont.takemeto.icu/">dont.takemeto.icu</a></div>'
 
   # 文章图片可点击放大
   # Zoom feature of images
