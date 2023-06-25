@@ -6,7 +6,7 @@ date: 2001/5/5 12:00:00
 
 **什么语言？** C/C++, Golang
 
-**什么文化？** 中国科学技术大学
+**什么文化？** Postgraduate@USTC
 
 **是哪里人？** 江西省南昌市
 
@@ -26,7 +26,7 @@ date: 2001/5/5 12:00:00
 
 ## 联系我
 
-Email: shiftregister233@outlook.com
+Email: mail.takemeto.icu (TXT record)
 
 GitHub: [Pokyux](https://github.com/pokyux)
 
