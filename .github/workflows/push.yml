@@ -24,8 +24,11 @@ jobs:
       - name: build page
         run: hexo g -d
 
-      - name: Deploy to Github Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+      - name: upload files to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
         with:
-          branch: gh-page
-          folder: public
+            accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
+            accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
+            bucket: takemeto-icu
+            endpoint: oss-cn-shanghai.aliyuncs.com
+            folder: public
