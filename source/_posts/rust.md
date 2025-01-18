@@ -1,6 +1,7 @@
 ---
 title: Rust 笔记
 date: 2023/04/04
+hide: true
 ---
 ### 所有权
 
