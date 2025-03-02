@@ -1,0 +1,34 @@
+# ========================================================
+# 基于 aliyun OSS / tencent COS 构建部署 Hexo 静态网站示例
+# 功能：通过 Node 编译构建 Hexo 项目并部署到 OSS / COS
+# ========================================================
+version: 1.0
+name: hexo-oss-deploy                      # 定义一个唯一 ID 标识为 hexo-oss-deploy ，名称为「 Hexo 部署(OSS) 」的流水线
+displayName: 'Hexo 部署(OSS)'
+triggers:                                  # 流水线触发器配置
+  push:                                    # 设置 master 分支 在产生代码 push 时精确触发（precise）构建
+    branches:
+      precise:                             
+        - master
+stages:                                    # 构建阶段配置
+  - stage:                                 # 定义一个 ID 标识为 deploy-stage ,名为「 Deploy Stage 」的阶段
+    name: deploy-stage
+    displayName: 'Deploy Stage'
+    strategy: naturally                    # 阶段触发策略，naturally表示自然失败，fast表示快速失败
+    steps:                                 # 构建步骤配置
+      - step: build@nodejs                 # 采用 npm 编译环境
+        name: deploy-step                  # 定义一个 ID 标识为 deploy-step ,名为「 Deploy Step 」的阶段
+        displayName: 'Deploy Step'
+        nodeVersion: 14.16.0               # 指定 node 环境版本为 14.16.0
+        commands: |                        # 安装依赖，配置相关主题、部署参数并发布部署
+            set -e
+            node -v
+            npm -v
+            npm install
+            npm run config deploy.cloud $CLOUD
+            npm run config deploy.bucket $BUCKET
+            npm run config deploy.region $REGION
+            npm run config deploy.secretId $SECRET_ID
+            npm run config deploy.secretKey $SECRET_KEY
+            npm run clean
+            npm run deploy
